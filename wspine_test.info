@@ -1,0 +1,44 @@
+name = wspine_test
+description = wspine_test Template
+screenshot = images/screenshot.jpg
+core = "7.x"
+project = "wspine_test"
+engine = phptemplate
+
+regions[page_top] = Page top
+regions[header] = Header
+regions[highlight] = Highlight
+regions[help] = Help
+regions[content] = Content
+regions[footer] = Footer
+regions[page_bottom] = Page bottom
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = search
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+stylesheets[all][] = css/style.css
+stylesheets[print][] = css/print.css
+
+; Compass Support
+; http://drupal.org/project/compass
+compass[status] = 1
+compass[sass_dir] = sass
+compass[css_dir] = css
+
+settings[ads_tabs] = 1
+settings[ads_breadcrumb_separator] = »
+settings[wireframe_mode] = 0
+settings[clear_registry] = 0
+; Information added by drupal.org packaging script on 2012-04-11
+version = "7.x-1.0"
+core = "7.x"
+project = "wspine_test"
+datestamp = "1334122542"
+
